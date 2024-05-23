@@ -33,11 +33,12 @@ function getDevice(size) {
 console.log(getDevice(399));
 console.log(getDevice(1024));
 
-const isPositive = (num) => {
-    if (num > 0) {
-        return true;
-    }else {
-        return false;
-    }
-};
-console.log(isPositive(100));
+// const isPositive = (num) => {
+//     if (num > 0) {
+//         return true;
+//     }else {
+//         return false;
+//     }
+// };
+const isPostive = num=>num>0;
+console.log(isPostive(100));

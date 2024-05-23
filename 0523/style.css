@@ -1,0 +1,11 @@
+p {
+    font-style: italic;
+}
+
+.classSelect {
+    color: yellow;
+}
+
+#idSelect {
+    color: green;
+}

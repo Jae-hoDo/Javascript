@@ -42,3 +42,23 @@ console.log(getDevice(1024));
 // };
 const isPostive = num=>num>0;
 console.log(isPostive(100));
+
+const getMaxNumber = (x, y) => {
+    if (x > y) {
+        return x;
+    }else {
+        return y;
+    }
+}
+console.log(getMaxNumber(5, 6));
+
+const 입장확인 = (나이)=>{
+    const 제한나이 = 29;
+    if (나이 <= 제한나이) {
+        return true;
+    }else {
+        return false;
+    }
+};
+console.log(입장확인(25));
+console.log(입장확인(30));

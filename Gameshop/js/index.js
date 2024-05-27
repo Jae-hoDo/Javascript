@@ -14,7 +14,13 @@ function displayProducts(gameData) {
     if (gameData.length > 0) {
         const content = document.querySelector(".content");
         gameData.forEach((data)=>{
-            
+            const game = document.createElement("div");
+            game.classList.add("game");
+            const img = document.createElement("img");
+            img.classList.add("image");
+            img.src = data.image;
+            game.appendChild(img);
+            content.appendChild(game);
         })
     }
 }

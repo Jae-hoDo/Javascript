@@ -55,10 +55,10 @@
     cursor: pointer;
 }
 .game {
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
     background-color: white;
+}
+.image {
+    width: 100%;
 }
 
 
